@@ -1,0 +1,133 @@
+﻿
+ body {
+     font-family: 'Segoe UI', Calibri, Arial;
+     margin: 0;
+     background-color: rgb(255, 255, 255);
+ }
+
+ .nav-alert {
+     background-color: #5A5773;
+     
+     border-radius: 0%;
+     padding: 20px 20px 20px 20px;
+     color: yellowgreen;
+     font-size: larger;
+     font-weight: bold;
+     text-align: center;
+     font-size: 30px;
+ }
+
+ .footer-alert {
+     background-color: #5A5773;
+     min-height: 40px;
+     margin-top: 375px;
+
+ }
+
+ .btn-primary {
+     background-color: #5A5773;
+
+ }
+
+ .btn-success {
+     background-color: #00BFA6;
+
+ }
+
+ .jumbotron {
+     width: 70%;
+     margin: auto;
+     margin-top: 20px;
+     /* max-height: fit-content; */
+     box-shadow: 5px 5px 5px 5px #5A5773;
+     padding-left: 30px;
+     padding-top: 20px;
+     padding-bottom: 20px;
+
+ }
+
+ .mb-2 {
+     margin-bottom: 5px;
+ }
+
+ #collage #playPanel {
+     /* background-color:#c2defc; */
+     padding: 10px 0px;
+     margin: 10px auto;
+     max-width: 800px;
+     /* width:95%; */
+ }
+
+ #reg {
+     background-color: #00BFA6;
+     color: white;
+     padding: 5px 5px 5px 5px;
+     border-radius: 5px;
+     border: none;
+     width: 30%;
+ }
+ 
+
+ #reg:hover {
+     cursor: pointer;
+     background-color: #5A5773;
+ }
+
+  #login {
+      background-color: #00BFA6;
+      color: white;
+      padding: 5px 5px 5px 5px;
+      border-radius: 5px;
+      border: none;
+      width: 30%;
+  }
+
+
+  #login:hover {
+      cursor: pointer;
+      background-color: #5A5773;
+  }
+
+   .proceed {
+       background-color: #00BFA6;
+       color: white;
+       padding: 5px 5px 5px 5px;
+       border-radius: 5px;
+       border: none;
+       width: 30%;
+   }
+
+
+   .proceed:hover {
+       cursor: pointer;
+       background-color: #5A5773;
+   }
+
+
+
+ #collage #sortable {
+     border: 2px solid #a46;
+     list-style-type: none;
+     display: inline-block;
+     margin: 10px;
+     padding: 0;
+     width: 400px;
+ }
+
+ #collage #sortable li {
+     background-size: 100% 100%;
+     border: none;
+     cursor: pointer;
+     margin: 0;
+     padding: 0;
+     float: left;
+     width: 30px;
+     height: 30px;
+ }
+
+ .form-control:focus {
+     border: none;
+     background-color: #5A5773;
+     color: white;
+     font-weight: bold;
+ }
